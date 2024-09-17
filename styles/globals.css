@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Zilla Slab';
+	overflow-x: hidden;
+}
+
+.text-wrap {
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow-wrap: break-word;
+}
